@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+ 
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+      <pattern>test</pattern>
+      <template><srai>hej</srai></template>
   </category>
+   <category>
+      <pattern>* czeÅÄ 1 *</pattern>
+      <template><srai>hej</srai></template>
+  </category>
+  <category>
+      <pattern>* yo</pattern>
+      <template><srai>hej</srai></template>
+  </category>
+  <category>
+      <pattern>hej</pattern>
+      <template>Witaj uÅ¼ytkowniku. Nazywam siÄ SmartBot jak moge dzisiaj sÅuÅ¼yÄ</template>
+  </category>
+   
+  <category>
+      <pattern>hej</pattern>
+      <template>Witaj uÅ¼ytkowniku. Nazywam siÄ SmartBot jak moge dzisiaj sÅuÅ¼yÄ</template>
+  </category>
+  
+   
 </aiml>
